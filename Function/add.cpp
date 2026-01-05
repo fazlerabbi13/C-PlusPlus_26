@@ -9,10 +9,12 @@ int main(){
     int sum;
 
     sum = add(5,7);
-    // cout << sum << "\n";
+    cout << sum << "\n";
+    
     return 0;
 }
 
+// function definition
 int add(int a, int b){
     return (a + b);
 }
