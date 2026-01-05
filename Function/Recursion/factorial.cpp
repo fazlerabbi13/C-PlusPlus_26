@@ -4,6 +4,14 @@ using namespace std;
 int factorial(int n);
 
 int main(){
+    int n , result;
+
+    cin >> n;
+
+    result = factorial(n);
+
+    cout << result << "\n";
+    
     return 0;
 }
 
