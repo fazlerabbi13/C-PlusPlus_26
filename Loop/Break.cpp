@@ -1,5 +1,3 @@
-// using break statement inside
-// nested for loop
 
 #include <iostream>
 using namespace std;
