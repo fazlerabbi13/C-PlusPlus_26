@@ -12,5 +12,8 @@ int main()
     delete age;
     delete height;
 
+    // age = nullptr;
+    // height = nullptr;
+
     return 0;
 }
