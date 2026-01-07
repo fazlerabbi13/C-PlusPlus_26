@@ -7,16 +7,18 @@ int main()
     // cout << &val1;
 
     // find address of variable val1
-    {
-        int *ptr = &val1;
-        cout << ptr; // prints address
-    }
+    // {
+    //     int *ptr = &val1;
+    //     cout << ptr; // prints address
+    // }
 
     cout << "\n";
     // find value of variable val1
     {
         int *ptr = &val1;
-        cout << *ptr; // prints value
+        *ptr = 1;
+        cout << val1;
+        // cout << *ptr; // prints value
     }
 
     return 0;
