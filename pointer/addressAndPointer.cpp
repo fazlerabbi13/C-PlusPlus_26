@@ -12,13 +12,13 @@ int main()
     //     cout << ptr; // prints address
     // }
 
-    cout << "\n";
+    // cout << "\n";
     // find value of variable val1
     {
-        int *ptr = &val1;
+        // int *ptr = &val1;
         // *ptr = 1;
-        val1 = 7;
-        cout << val1;
+        // val1 = 7;
+        // cout << val1;
         // cout << *ptr; // prints value
     }
 
