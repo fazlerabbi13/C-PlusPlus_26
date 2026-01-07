@@ -18,7 +18,7 @@ int main(){
     //     cout << *(arr + i) << "\n";
     // }
 
-    int *ptr;
+    int* ptr;
     // Displaying address using arrays
     for(int i = 0; i < 3; i++){
         cout << &arr[i] << "\n";
