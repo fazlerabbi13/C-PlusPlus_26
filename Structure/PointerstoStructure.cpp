@@ -12,8 +12,12 @@ int main()
     Distance d;
     Distance *ptr = &d;
 
-    cin >> (*ptr).feet;
-    cin >> (*ptr).inch;
+    // cin >> (*ptr).feet;
+    // cin >> (*ptr).inch;
+
+    // use arrow function taking input
+    cin >> *ptr->feet;
+    cin >> *ptr->inch;
 
     cout << (*ptr).feet << " feet " << (*ptr).inch << " inches\n";
     
