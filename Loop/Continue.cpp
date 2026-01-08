@@ -11,7 +11,7 @@ int main() {
             if (j == 2) {
                 continue;
             }
-            cout << "i = " << i << ", j = " << j << endl;
+            cout << "i = " << i << ", j = " << j << "\n";
         }
     }
 
