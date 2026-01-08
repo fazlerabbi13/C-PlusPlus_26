@@ -17,3 +17,11 @@ struct Person
         cout << salary << "\n";
     }
 };
+
+int main(){
+    cin >> p.first_name;
+    cin >> p.last_name;
+    cin >> p.age;
+    cin >> p.height;
+    cin >> p.salary;
+}
