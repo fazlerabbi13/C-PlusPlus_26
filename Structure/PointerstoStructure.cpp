@@ -9,6 +9,9 @@ struct Distance {
 int main(){
     Distance d;
     Distance* ptr = &d;
+
+    cin >> (*ptr).feet;
+    cin >> (*ptr).inch;
     
     return 0;
 }
