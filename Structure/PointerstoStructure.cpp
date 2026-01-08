@@ -7,19 +7,24 @@ struct Distance
     float inch;
 };
 
-int main()
-{
-    Distance d;
+ int main()
+ {
+     Distance d;
     Distance *ptr = &d;
 
     // cin >> (*ptr).feet;
     // cin >> (*ptr).inch;
 
-    // use arrow function taking input
-    cin >> *ptr->feet;
-    cin >> *ptr->inch;
+   // use arrow operator taking input
+    cin >> ptr->feet;
+    cin >> ptr->inch;
 
-    cout << (*ptr).feet << " feet " << (*ptr).inch << " inches\n";
+     // cout << (*ptr).feet << " feet " << (*ptr).inch << " inches\n";
     
-    return 0;
-}
+     // show output using arrow operator
+    cout << ptr->feet << " feet " << ptr->inch << " inches\n";
+    
+     return 0;
+ }
+
+
