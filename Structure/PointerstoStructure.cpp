@@ -5,3 +5,10 @@ struct Distance {
     int feet;
     float inch;
 };
+
+int main(){
+    Distance d;
+    Distance* ptr = &d;
+    
+    return 0;
+}
