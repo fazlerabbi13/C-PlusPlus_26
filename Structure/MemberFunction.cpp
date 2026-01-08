@@ -19,9 +19,17 @@ struct Person
 };
 
 int main(){
+
+    Person p;
+
     cin >> p.first_name;
     cin >> p.last_name;
     cin >> p.age;
     cin >> p.height;
     cin >> p.salary;
+
+    cout << ".................." << "\n";
+    
+    p.display_details();
+
 }
