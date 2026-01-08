@@ -8,4 +8,12 @@ struct Person
     int age;
     float height;
     float salary;
+
+    void display_details(){
+        cout << first_name << "\n";
+        cout << last_name << "\n";
+        cout << age << "\n";
+        cout << height << "\n";
+        cout << salary << "\n";
+    }
 };
