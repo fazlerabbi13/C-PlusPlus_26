@@ -19,6 +19,14 @@ int main(){
     cin >> p.age;
     cin >> p.height;
     cin >> p.salary;
+
+    cout << ".................";
     
+    cout << p.first_name << "\n";
+    cout << p.last_name << "\n";
+    cout << p.age << "\n";
+    cout << p.height << "\n";
+    cout << p.salary << "\n";
+
     return 0;
 }
