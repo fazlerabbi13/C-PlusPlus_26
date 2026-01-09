@@ -9,7 +9,7 @@ struct Distance
 
  int main()
  {
-     Distance d;
+    Distance d;
     Distance *ptr = &d;
 
     // cin >> (*ptr).feet;
