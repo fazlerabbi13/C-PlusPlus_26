@@ -7,8 +7,12 @@ class Room{
         double breath;
         double height;
 
-        double calcute_area(){
+        double calculate_area(){
             return length * breath;
+        }
+
+        double calculate_volume(){
+            return length * breath * height;
         }
 };
 
