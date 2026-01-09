@@ -18,5 +18,11 @@ class Room{
 
 int main(){
 
+    Room room;
+
+    room.length = 50.5;
+    room.breath = 46.50;
+    room.height = 40.12;
+    
     return 0;
 }
