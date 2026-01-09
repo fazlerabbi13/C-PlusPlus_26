@@ -7,7 +7,9 @@ class Room{
         double breath;
         double height;
 
-        double 
+        double calcute_area(){
+            return length * breath;
+        }
 };
 
 int main(){
