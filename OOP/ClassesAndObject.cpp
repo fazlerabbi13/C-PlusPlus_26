@@ -24,5 +24,8 @@ int main(){
     room.breath = 46.50;
     room.height = 40.12;
     
+
+    cout << "area: " << room.calculate_area() << "\n";
+    
     return 0;
 }
