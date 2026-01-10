@@ -18,7 +18,7 @@ class Field {
 };
 
 int main(){
-    // Field field1(10.5, 8.6);
+    Field field1(10.5, 8.6);
 
     // cout << "Area of Field 1: " << field1.calculate_area() << "\n";
 
