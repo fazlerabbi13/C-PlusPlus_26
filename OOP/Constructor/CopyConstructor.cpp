@@ -9,6 +9,11 @@ class Field{
     public:
         Field(double len, double wid)
             :length{len},width{wid}{}
+
+        Field(const Field& obj)
+            :length{obj.length},width{obj.width}{}
+
+        
 };
 
 int main(){
