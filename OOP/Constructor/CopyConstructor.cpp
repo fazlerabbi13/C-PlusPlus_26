@@ -14,6 +14,9 @@ class Field{
             :length{obj.length},width{obj.width}{}
 
         
+            double calculateArea(){
+                return length * width;
+            }
 };
 
 int main(){
