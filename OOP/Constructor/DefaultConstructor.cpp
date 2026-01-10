@@ -12,9 +12,9 @@ class Field {
 
             }
         
-        // double calculate_area(){
-        //     return length * width;
-        // }
+        double calculate_area(){
+            return length * width;
+        }
 };
 
 int main(){
