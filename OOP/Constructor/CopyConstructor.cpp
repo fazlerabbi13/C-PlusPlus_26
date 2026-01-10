@@ -23,5 +23,8 @@ int main(){
 
     Field field1(10.2,5.6);
 
+    Field field2 = field1;
+
+    
     return 0;
 }
