@@ -21,7 +21,7 @@ class Field{
 
 int main(){
 
-
+    Field field1(10.2,5.6);
 
     return 0;
 }
