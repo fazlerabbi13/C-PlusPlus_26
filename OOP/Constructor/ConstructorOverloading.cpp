@@ -21,7 +21,11 @@ class Field{
             length = Len;
             breath = 8.2;
         }
-}
+
+        double calculateArea(){
+            return length * breath;
+        }
+};
 
 int main(){
 
