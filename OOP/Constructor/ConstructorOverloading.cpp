@@ -13,12 +13,12 @@ class Field{
         }
 
         Field(double len, double bre){
-            length = Len;
+            length = len;
             breath = bre;
         }
 
         Field(double len){
-            length = Len;
+            length = len;
             breath = 8.2;
         }
 
@@ -29,6 +29,10 @@ class Field{
 
 int main(){
     Field field1, feild2(5.2,8.2), feild3(6.0);
-    
+
+    cout << field1.calculateArea() << "\n";
+    cout << feild2.calculateArea() << "\n";
+    cout << feild3.calculateArea() << "\n";
+
     return 0;
 }
