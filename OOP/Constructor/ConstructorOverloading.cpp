@@ -16,6 +16,11 @@ class Field{
             length = Len;
             breath = bre;
         }
+
+        Field(double len){
+            length = Len;
+            breath = 8.2;
+        }
 }
 
 int main(){
