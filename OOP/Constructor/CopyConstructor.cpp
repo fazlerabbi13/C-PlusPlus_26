@@ -25,7 +25,7 @@ int main(){
 
     Field field2 = field1;
 
-    cout << field1.calculateArea() << "\n";
+    // cout << field1.calculateArea() << "\n";
     cout << field1.calculateArea() << "\n";
 
     return 0;
