@@ -28,6 +28,7 @@ class Field{
 };
 
 int main(){
-
+    Field field1, feild2(5.2,8.2), feild3(6.0);
+    
     return 0;
 }
