@@ -11,8 +11,14 @@ class Feild{
         Feild(double len = 2.5, double hgt = 5.0)
             :length{new double{len}},
             , height{new double{hgt}}{
-                
+
             }
+
+        Feild(const Feild& obj)
+        : length{new double{*(obj.length)}}
+        , height{new double{*(obj.height)}}{
+            
+        }
 }
 
 int main(){
