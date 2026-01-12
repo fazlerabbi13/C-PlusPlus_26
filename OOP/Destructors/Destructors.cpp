@@ -9,7 +9,7 @@ class Feild{
     public:
 
         Feild(double len = 2.5, double hgt = 5.0)
-            :length{new double{len}},
+            :length{new double{len}}
             , height{new double{hgt}}{
 
             }
@@ -25,7 +25,7 @@ class Feild{
         }
 
         double calculateArea(){
-            return length * height;
+            return *length * *height;
         }
 
         ~Feild(){
@@ -42,6 +42,8 @@ int main(){
     Feild feild2 = feild1;
 
     feild2.setLenght(7.5);
-    
+
+
+    cout << feild1.calculateArea() << "\n";
     return 0;
 }
