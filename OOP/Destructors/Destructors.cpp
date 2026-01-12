@@ -45,5 +45,7 @@ int main(){
 
 
     cout << feild1.calculateArea() << "\n";
+    cout << feild2.calculateArea() << "\n";
+    
     return 0;
 }
