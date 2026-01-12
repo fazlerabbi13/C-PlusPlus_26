@@ -38,6 +38,10 @@ class Feild{
 
 int main(){
     Feild feild1(5.2, 2.3);
+
+    Feild feild2 = feild1;
+
+    feild2.setLenght(7.5);
     
     return 0;
 }
