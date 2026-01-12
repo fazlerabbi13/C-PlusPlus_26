@@ -23,7 +23,13 @@ class Feild{
         void setLenght(double len){
             *length = len;
         }
-}
+
+        double calculateArea(){
+            return length * height;
+        }
+
+
+};
 
 int main(){
 
