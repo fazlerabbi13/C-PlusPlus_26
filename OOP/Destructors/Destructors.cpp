@@ -17,7 +17,11 @@ class Feild{
         Feild(const Feild& obj)
         : length{new double{*(obj.length)}}
         , height{new double{*(obj.height)}}{
-            
+
+        }
+
+        void setLenght(double len){
+            *length = len;
         }
 }
 
