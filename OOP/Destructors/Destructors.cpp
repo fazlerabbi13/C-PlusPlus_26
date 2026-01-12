@@ -28,6 +28,11 @@ class Feild{
             return length * height;
         }
 
+        ~Feild(){
+            delete length;
+            delete height;
+        }
+
 
 };
 
