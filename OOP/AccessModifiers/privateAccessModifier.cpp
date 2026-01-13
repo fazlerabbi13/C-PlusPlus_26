@@ -12,12 +12,13 @@ class Man{
         }
 };
 int main(){
-    int age
+    int age;
 
     Man obj1;
 
     cin >> age;
 
-    // obj1.displayAge(age);
+    obj1.displayAge(age);
+
     return 0;
 }
