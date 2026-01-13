@@ -21,7 +21,7 @@ int main(){
 
     cin >> age;
 
-    man1.displayAge(age);
+    // man1.displayAge(age);
 
     return 0;
 }
