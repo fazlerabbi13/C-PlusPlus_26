@@ -12,5 +12,7 @@ class Man{
 
 int main(){
 
+    Man obj1;
+    
     return 0;
 }
