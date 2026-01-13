@@ -6,13 +6,13 @@ class Man{
         int age;
 };
 
-class Man1 : public Man {
-    public:
-        void displayAge(int a){
-            age = a;
-            cout << age << "\n";
-        }
-};
+// class Man1 : public Man {
+//     public:
+//         void displayAge(int a){
+//             age = a;
+//             cout << age << "\n";
+//         }
+// };
 int main(){
 
     int age;
