@@ -7,7 +7,8 @@ int main(){
 
     char str[100];
 
-    cin >> str;
+    // cin >> str;
+    cin.get(str, 100);
 
     cout << str << "\n";
 
