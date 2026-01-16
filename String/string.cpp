@@ -1,9 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-
-
-int main(){
+int main()
+{
 
     // char str[100];
     // string str1;
@@ -12,10 +11,9 @@ int main(){
     // cin.get(str, 100);
     // getline(cin, str1);
 
-
     // cout << str1 << "\n";
 
- // occurence finding
+    // occurence finding
     // string str2 = "Hello world! This is noisy world.";
 
     // size_t frist_occurence = str2.find("world");
@@ -29,16 +27,15 @@ int main(){
     //     cout << "'world' is not found." << "\n";
     // }
 
+    string str3 = "Hello, World!";
 
-        string str3 = "Hello, World!";
-        
-        cout << "before: " << str3 <<"\n";
+    cout << "before: " << str3 << "\n";
 
-        str3.append("This is Fazle Rabbi ");
+    str3.append("This is Fazle Rabbi ");
 
-        cout << "after: " << str3 << "\n";
+    str3.insert(6, " of programming ");
 
-
+    cout << "after: " << str3 << "\n";
 
     return 0;
 }
