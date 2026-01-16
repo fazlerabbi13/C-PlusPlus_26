@@ -33,7 +33,9 @@ int main()
 
     str3.append("This is Fazle Rabbi ");
 
-    str3.insert(6, " of programming ");
+    // str3.insert(6, " of programming ");
+
+    str3.erase(5, 9);
 
     cout << "after: " << str3 << "\n";
 
