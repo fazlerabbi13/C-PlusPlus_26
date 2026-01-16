@@ -15,19 +15,28 @@ int main(){
 
     // cout << str1 << "\n";
 
-    string str2 = "Hello world! This is noisy world.";
+ // occurence finding
+    // string str2 = "Hello world! This is noisy world.";
 
-    size_t frist_occurence = str2.find("world");
+    // size_t frist_occurence = str2.find("world");
 
-    size_t last_occurrence = str2.rfind("world");
+    // size_t last_occurrence = str2.rfind("world");
 
-    if(frist_occurence != string::npos){
-        cout << frist_occurence << "\n";
-        cout << last_occurrence << "\n";
-    }else{
-        cout << "'world' is not found." << "\n";
-    }
+    // if(frist_occurence != string::npos){
+    //     cout << frist_occurence << "\n";
+    //     cout << last_occurrence << "\n";
+    // }else{
+    //     cout << "'world' is not found." << "\n";
+    // }
 
+
+        string str3 = "Hello, World!";
+        
+        cout << "before: " << str3 <<"\n";
+
+        str3.append("This is Fazle Rabbi ");
+
+        cout << "after: " << str3 << "\n";
 
 
 
